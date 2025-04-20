@@ -1,0 +1,51 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.dll
+*.exe
+*.pdb
+*.app/
+*.vs/
+.vscode/
+*.log
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Python (POC)
+POC/__pycache__/
+POC/*.pyc
+POC/*.pyo
+POC/.mypy_cache/
+POC/.pytest_cache/
+POC/env/
+POC/venv/
+POC/.env
+POC/.DS_Store
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Backup / Temp
+*.bak
+*.tmp
+*.swp
+~$*
+
+# IDEs
+.idea/
+*.code-workspace
+*.vsconfig
